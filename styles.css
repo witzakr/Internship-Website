@@ -1,0 +1,270 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --heading-font: 'Concert One', cursive;
+    --secondary-font: 'M PLUS Rounded 1c', sans-serif;
+    --headline-color: #303030;
+    --button-color: #99004A;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    position: relative;
+}
+
+.headline img {
+    width: 100%;
+    height: auto;
+}
+
+#mobileimg {
+    height: 30vh;
+}
+
+.text-container {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%; 
+}
+
+.text-container h1 {
+    font-size: 1rem;
+    color: var(--headline-color);
+    font-family: 'Concert One', sans-serif;
+    line-height: 1.2;
+    width: 150px;
+}
+
+.text-container p {
+    font-size: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.2rem;
+    color: var(--headline-color);
+    width: 200px;
+}
+
+.btn-primary {
+    background-color: #C2185B !important;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.3rem !important;
+    border-radius: 50px !important;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #AD1457;
+}
+
+@media (min-width: 576px) {
+
+    .text-container h1 {
+        font-size: 0.8rem;
+        width: 200px;
+    }
+
+    .text-container p {
+        font-size: 0.5rem;
+        width: 250px;
+    }
+
+    .btn-primary {
+        font-size: 0.6rem !important;
+        padding: 8px 30px !important;
+    }
+
+    .text-container {
+        top: 50%;
+        left: 50%;
+    }
+
+    .blockquote {
+        width: 550px;
+    }
+    
+}
+
+@media (min-width: 768px) {
+
+    .text-container h1 {
+        font-size: 1rem;
+        width: 300px;
+    }
+
+    .text-container p {
+        font-size: 0.6rem;
+        width: 250px;
+    }
+
+    .text-container {
+        top: 50%;
+        left: 50%;
+    }
+
+    .blockquote {
+        width: 550px;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .text-container h1 {
+        font-size: 1.5rem;
+        width: 400px;
+    }
+
+    .text-container p {
+        font-size: 0.8rem;
+        width: 400px;
+    }
+
+    .btn-primary {
+        font-size: 0.8rem;
+        padding: 12px 40px;
+    }
+
+    .blockquote {
+        width: 550px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text-container h1 {
+        font-size: 1.8rem;
+        width: 450px;
+    }
+
+    .text-container p {
+        font-size: 1.1rem;
+        width: 500px;
+    }
+
+    .btn-primary {
+        font-size: 1.2rem;
+        padding: 14px 45px;
+    }
+
+    .blockquote {
+        width: 550px;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .text-container h1 {
+        font-size: 2rem;
+        width: 500px;
+    }
+
+    .text-container p {
+        font-size: 1.2rem;
+        width: 550px;
+    }
+
+    .btn-primary {
+        font-size: 1.4rem;
+        padding: 16px 50px;
+    }
+
+    .blockquote {
+        width: 550px;
+    }
+
+}
+
+section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 60px;
+}
+
+blockquote {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+  }
+  
+  blockquote::before {
+    content: "“"; 
+    position: absolute;
+    left: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 0;
+    font-size: 3.5rem; 
+    line-height: 0;
+    color: #000; 
+  }
+  
+  blockquote::after {
+    content: "”"; 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5rem; 
+    line-height: 0;
+    color: #000; 
+  }
+
+ 
+ 
+ 
+  .container-fluid.full-width { 
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+
+    .container-fluid.full-width { 
+        padding-left: 0;
+        padding-right: 0;
+        overflow-x: hidden;
+    }
+
+    .row.row-no-gutter {
+        margin: 0;
+    }
+
+    .row.row-no-gutter [class*="col-"] {
+        padding: 0;
+    }
+
+    .img-full-width {
+        width: 100%;
+        height: auto;
+    }
+
+    .has-inner .row.row-no-gutter {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .row.row-no-gutter .inner {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .col-xs-4:first-child {
+        padding-left: 0;
+    }
+
+    .col-xs-4:last-child {
+        padding-right: 0;
+    }
+
+
+
