@@ -1,7 +1,6 @@
 :root {
     --main-font: 'Roboto', sans-serif;
     --heading-font: 'Concert One', cursive;
-    --secondary-font: 'M PLUS Rounded 1c', sans-serif;
     --headline-color: #303030;
     --button-color: #99004A;
 }
@@ -12,6 +11,7 @@ body, html {
     padding: 0;
 }
 
+/* Header section */
 
 .headline {
     background-image: url('images/header-mobile.png');
@@ -34,7 +34,6 @@ body, html {
 
 .text-container {
     padding: 20px;
-    color: #fff; 
     max-width: 100%; 
     box-sizing: border-box;
 }
@@ -42,18 +41,26 @@ body, html {
 .text-container h1 {
     font-family: var(--heading-font);
     color: var(--headline-color);
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    max-width: 500px;
 }
 
 .text-container p {
     font-family: var(--main-font);
     color: var(--headline-color);
-    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
+.text-container button {
+    background-color: var(--button-color) !important;
+    border-radius: 50px !important;
+    padding: 10px 5px !important;
+    max-width: 350px;
+    font-family: var(--heading-font) !important;
+    border: none !important;
+}
 
+/* Quote section */
 
 section {
     justify-content: center;
@@ -67,6 +74,7 @@ blockquote {
     padding-left: 20px;
     padding-right: 20px;
     max-width: 600px;
+    font-family: var(--main-font);
   }
   
   blockquote::before {
@@ -92,8 +100,9 @@ blockquote {
   }
 
  
- 
- 
+/* Image grid section */
+
+
   .container-fluid.full-width { 
     padding-left: 0;
     padding-right: 0;
@@ -137,6 +146,62 @@ blockquote {
     .col-xs-4:last-child {
         padding-right: 0;
     }
+
+
+   /* Cyber threats section */
+   
+    .cyber-header {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .cyber-header h1 {
+        font-family: var(--heading-font);
+        color: #303030;
+    }
+    .cyber-header p {
+        color: #303030;
+        font-family: var(--main-font);
+    }
+    .card {
+        border: none !important;
+        color: #303030;
+    }
+
+    .card h5 {
+        font-family: var(--heading-font);
+    }
+
+    .card p {
+        font-family: var(--main-font);
+    }
+
+    .security-scan {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .security-scan button {
+        background-color: var(--button-color) !important;
+        border-radius: 50px !important;
+        padding: 15px 20px !important;
+        color: white !important;
+        border: none !important;
+        max-width: 400px;
+        font-family: var(--heading-font) !important;
+    }
+
+
+    .video-section {
+        position: relative;
+        width: 100%;
+        max-width: 800px; 
+        margin: auto;
+      }
+      .video-section video {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
 
 
 

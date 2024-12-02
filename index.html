@@ -9,31 +9,30 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=M+PLUS+Rounded+1c&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
     <header>
         <div class="headline d-flex flex-column flex-sm-row">
-            <div class="text-container d-flex flex-column justify-content-center col-12 col-sm-6 ms-sm-auto">
-                <h1>Cyber threats: better to prevent than cure</h1>
-                <p class="text-wrap">
+            <div class="text-container d-flex flex-column justify-content-center col-12 col-sm-7 col-lg-5 offset-sm-1 text-wrap p-3 position-relative mt-0 mt-sm-3" style="max-width: 600px;">
+                <h1 class="fs-3 fs-sm-1">Cyber threats: better to prevent than cure</h1>
+                <p class="fs-6 fs-sm-5">
                     In this era of digital transformations, 
                     security is incredibly important. 
                     How well protected is your company against external attacks? Find out here.<br>
                     <br>
                     Wondering how secure your organisation is? 
                 </p>
-                <button class="btn btn-primary">REQUEST A SECURITY SCAN</button> 
+                <button class="btn btn-primary mt-3">REQUEST A SECURITY SCAN</button> 
             </div>
-            <div class="col-12 col-sm-6">
-                <!-- Nothing here for now -->
+            <div class="col-12 col-sm-4">
             </div>
         </div>
     </header>
-    
 
-    <section>
+    <section class="quote"> 
         <div class="container-fluid d-flex justify-content-center">
             <div class="text-container2">
                 <blockquote class="blockquote text-center">
@@ -51,13 +50,11 @@
                         <img src="images/Image 1.png" class="img-full-width" alt="" />
                     </div>
                 </div>
-                <!-- close .col -->
                 <div class="col-xs-4 col-sm-4 mb-3">
                     <div class="inner">
                         <img src="images/Image 4.png" class="img-full-width" alt="" />
                     </div>
                 </div>
-                <!-- close .col -->
                 <div class="col-xs-4 col-sm-4 mb-3">
                     <div class="inner">
                         <img src="images/Image 5.png" class="img-full-width" alt="" />
@@ -66,7 +63,61 @@
             </div>
         </div>    
    </section>
-    
+
+   <section class="cyber-threats">
+    <div class="container">
+        <div class="cyber-header">
+            <h1>Cyber threats. What exactly are they?</h1>
+            <p>There are several cyber threats that cybersecurity protects against. Below, we name some of the methods that malicious individuals use to gain control of computer systems - often through a company's employees.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card p-3">
+                    <h5>Ransomware</h5>
+                    <p>Ransomware is a type of malware that locks a user's files and data, threatening to erase them unless a ransom is paid.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3">
+                    <h5>SQL Injection</h5>
+                    <p>A SQL injection (Structured Query Language) is a type of cyber-attack used to take control of a database and steal data from it.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3">
+                    <h5>Smishing/ Phishing</h5>
+                    <p>Phishing occurs when cybercriminals send victims emails that appear to come from a legitimate company and ask for sensitive information.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3">
+                    <h5>Man-in-the-middle</h5>
+                    <p>A man-in-the-middle attack is a type of cyber threat where a cybercriminal intercepts communications between two individuals to steal data.</p>
+                </div>
+            </div>
+        </div>
+        <div class="security-scan">
+            <button>I WANT A SECURITY SCAN</button>
+        </div>
+    </div>
+   </section>
+
+   <section class="video-section">
+        <div class="container mt-5">
+            <div class="video-section">
+                <video id="myVideo">
+                    <source src="images/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
       
     
       
