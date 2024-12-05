@@ -31,8 +31,6 @@ body, html {
     }
 }
 
-
-
 .text-container {
     padding: 20px;
     max-width: 600px; 
@@ -100,9 +98,7 @@ blockquote {
     color: #000; 
   }
 
- 
 /* Image grid section */
-
 
   .container-fluid.full-width { 
     padding-left: 0;
@@ -148,19 +144,13 @@ blockquote {
         padding-right: 0;
     }
 
-
    /* Cyber threats section */
    
-    .cyber-header {
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .cyber-header h1 {
+    .cyber-threats h1, h5 {
         font-family: var(--heading-font);
         color: #303030;
     }
-    .cyber-header p {
+    .cyber-threats p {
         color: #303030;
         font-family: var(--main-font);
     }
@@ -191,7 +181,6 @@ blockquote {
         font-family: var(--heading-font) !important;
     }
 
-
     /* Video section */
 
     .video-section {
@@ -206,8 +195,6 @@ blockquote {
         display: block;
       }
 
-
-    
       /* Book section */
 
     .book {
@@ -240,6 +227,22 @@ blockquote {
         font-family: var(--heading-font) !important;
     }
 
+    /* Vendemo section */ 
+
+    .vendemo h2 {
+        font-family: var(--heading-font);
+        color: var(--text-color);
+    }
+
+    .vendemo h3 {
+        font-family: var(--heading-font);
+        color: var(--text-color);
+    }
+
+    .vendemo p {
+        font-family: var(--main-font);
+        color: var(--text-color);
+    }
 
     /* Blog section */
 
@@ -280,7 +283,6 @@ blockquote {
         max-width: 400px !important;
         font-family: var(--heading-font) !important;
     }
-
 
     /* Form */
 
